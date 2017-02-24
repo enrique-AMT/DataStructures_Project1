@@ -1,4 +1,4 @@
-import java.io.FileNotFoundException;
+
 import java.io.IOException;
 import java.io.RandomAccessFile;
 
@@ -10,7 +10,7 @@ public class VirtualDiskBlock {
 	         diskBlock = new RandomAccessFile("OriginalBlock", "rw");
 	     }
 	     catch (IOException e) {
-	         System.err.println ("Unable to start the disk");
+	         System.err.println ("Unable to start the disk block");
 	         System.exit(1);
 	     }
 		
@@ -20,13 +20,10 @@ public class VirtualDiskBlock {
 			diskBlock = new RandomAccessFile("ModifiedBlock", "rw");
 			diskBlock.setLength((long) blockCapacity);
 			diskBlock.close();
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		}  catch (IOException e) {
+	         System.err.println ("Unable to start the disk block");
+	         System.exit(1);
+	     }
 		
 	}
 	
