@@ -60,12 +60,14 @@ public class VirtualDiskBlock {
 	 */
 	
 	public void setElement(int index, byte nuevo){
+		while(index>0){
 		try {
 			diskBlock.seek((long) index);
 			diskBlock.write(nuevo);	
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+		}
 		}
 		
 	}

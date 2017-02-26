@@ -17,6 +17,7 @@ public class DiskUnit {
   private RandomAccessFile disk;
 
   /**
+   * Constructor for the Disk Unit.
     @param name is the name of the disk
   **/
    private DiskUnit(String name) {
@@ -164,7 +165,6 @@ try {
 } 	
 }
 
-
 	public int getBlockSize() {
 		// TODO Auto-generated method stub
 		return 0;
@@ -181,5 +181,10 @@ try {
 		// TODO Auto-generated method stub
 		
 	}
+	
+	public void lowLevelFormat(){
+		//TODO
+	}
+	
 
 }
