@@ -1,3 +1,8 @@
+package testers;
+
+import diskUtilities.DiskUnit;
+import diskUtilities.VirtualDiskBlock;
+
 public class DiskUnitTester1 {
 
 	/**

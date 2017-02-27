@@ -1,3 +1,9 @@
+package diskUtilities;
+/**
+ * Class containing certain utilities to be used by the other classes in this project.
+ * @author Enrique A. Marrero Torres
+ *
+ */
 public class Utils{
 	/**
 	 * Verifies if the block size is a power of 2.
