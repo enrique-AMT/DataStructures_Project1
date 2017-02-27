@@ -4,8 +4,7 @@ Created for the class ICOM4035-070
 
 I. What does this program do?
 
-This Program creates a Virtual Disk Unit using Java. It uses Random Access Files or RAF to do so. They are stored in the
-physical disk after execution of the program, and can be accessed any time.
+This Program creates a Virtual Disk Unit using Java. It uses Random Access Files or RAF to do so. They are stored in the physical disk after execution of the program, and can be accessed any time.
 
 Inside this project you will find the following packages:
 -diskUtilities: Contains important utilities such as VirtualDiskBlock, which creates the blocks to be used by the Virtual Disk Unit.

@@ -73,7 +73,7 @@ public class DiskUnit {
 	 * @param name the name of the disk unit to activate
 	 * @return the corresponding DiskUnit object
 	 * @throws NonExistingDiskException whenever no
-	 *    ¨disk¨ with the specified name is found.
+	 *    "disk" with the specified name is found.
 	 */
 	
 	public static DiskUnit mount(String name)
