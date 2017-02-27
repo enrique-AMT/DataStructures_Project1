@@ -41,7 +41,7 @@ public class VirtualDiskBlock {
 	/**
 	 * Sets the byte in the selected index of the disk block
 	 * @param index the disk block's index of memory, converted to long.
-	 * @param the byte to write in the index of the Virtual Disk Block.
+	 * @param nuevo the byte to write in the index of the Virtual Disk Block.
 	 */
 	
 	public void setElement(int index, byte nuevo){		
